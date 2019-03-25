@@ -1,0 +1,23 @@
+{
+  "name": "arth/json5",
+  "description": "Json5 implementation",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Deider",
+      "email": "arth.inbox@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Arth\\Utils\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "^1.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  }
+}
